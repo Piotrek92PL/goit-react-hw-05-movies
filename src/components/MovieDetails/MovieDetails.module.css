@@ -1,0 +1,48 @@
+
+.container {
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.moviePoster {
+    flex: 0 0 15%; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+.movieInfo {
+    flex: 1; 
+}
+
+.movieTitle {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.movieRating {
+    font-weight: bold;
+}
+
+.movieGenres, .castList, .reviewList {
+    list-style: none;
+    padding: 0;
+}
+.movieInfo a {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: #007BFF;
+}
+
+.movieInfo a:hover {
+    color: #0056b3;
+}
+
+.hiperlink {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+display:block;
+}
