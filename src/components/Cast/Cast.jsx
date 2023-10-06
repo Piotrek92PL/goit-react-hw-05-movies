@@ -21,7 +21,7 @@ export default function Cast() {
                 alt={actor.name}
               />
             ) : (
-              <img alt="No image available" />
+              <img alt="Brak dostępnego zdjęcia" /> /* napisałem po polsku, poniewaz pojawil się  błąd uzywajac no image - reduntant */
             )}
             <p>{actor.name}</p>
             <p>Character: {actor.character}</p>

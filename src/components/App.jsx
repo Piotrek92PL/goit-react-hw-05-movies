@@ -8,11 +8,11 @@ import {
 } from 'react-router-dom';
 
 
-const Cast = React.lazy(() => import('./Cast/Cast'));
+/* const Cast = React.lazy(() => import('./Cast/Cast')); */
 const Home = React.lazy(() => import('./Home/Home'));
 const Movies = React.lazy(() => import('./Movies/Movies'));
 const MovieDetails = React.lazy(() => import('./MovieDetails/MovieDetails'));
-const Reviews = React.lazy(() => import('./Reviews/Reviews'));
+/* const Reviews = React.lazy(() => import('./Reviews/Reviews')); */
 
 export function App() {
   return (
